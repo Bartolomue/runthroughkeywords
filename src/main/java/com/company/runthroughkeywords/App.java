@@ -20,7 +20,7 @@ public class App
 
         //tests
         t.print();
-        t.normalize(new RemoveWhiteSpaces());
+        t.normalize(new RemoveSpecialChar());
         t.print();
 
     }
