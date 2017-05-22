@@ -13,7 +13,7 @@ public class RemoveShortWords extends Analyzer {
     protected TokenStreamComponents createComponents(String s) {
         final Tokenizer source = new WhitespaceTokenizer();
         //word shorter than five will not be displayed
-        TokenStream result = new LengthFilter(source, 5, Integer.MAX_VALUE);
+        TokenStream result = new LengthFilter(source, 2, Integer.MAX_VALUE);
         return new TokenStreamComponents(source, result);
     }
 }
