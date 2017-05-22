@@ -1,7 +1,6 @@
 package com.company.runthroughkeywords;
 
 import tools.normalization.Normalize;
-import tools.stemming.Stemming;
 import tools.stopwords.StopWords;
 import tools.TextOperation;
 
@@ -21,9 +20,9 @@ public class Text implements TextOperation {
         content = f.operation(content);
     }
 
-    public void doStemming(Stemming f) {
+    /*public void doStemming(Stemming f) {
         content = f.operation(content);
-    }
+    }*/
 
     public void removeStopWords(StopWords f) {
         content = f.operation(content);

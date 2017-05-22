@@ -37,5 +37,11 @@
       <artifactId>junit-jupiter-api</artifactId>
       <version>RELEASE</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-analyzers-common -->
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-analyzers-common</artifactId>
+      <version>6.5.1</version>
+    </dependency>
   </dependencies>
 </project>

@@ -1,6 +1,5 @@
 package tools;
 
-import tools.stemming.Stemming;
 import tools.normalization.Normalize;
 import tools.stopwords.StopWords;
 
@@ -9,6 +8,6 @@ import tools.stopwords.StopWords;
  */
 public interface TextOperation {
     void normalize(Normalize f);
-    void doStemming(Stemming f);
+
     void removeStopWords(StopWords f);
 }
